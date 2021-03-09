@@ -1,0 +1,30 @@
+.chessboard{
+    position:absolute;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 2% 25%;
+    background-color: black;
+}
+tbody{
+    height: calc(50vw);
+}
+.chessboard .td{
+    border: 1px solid;
+    width: 12,5%;
+}
+.chessboard .light{
+    background-color: #dbcaa4;
+}
+.chessboard .dark{
+    background-color: #693502;
+}
+.chessboard .dark:hover{
+    filter:hue-rotate(90deg);
+    filter:saturate(20);
+}
+.chessboard .light:hover{
+    filter:hue-rotate(90deg);
+    filter:saturate(20);
+}
+
