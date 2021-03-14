@@ -20,11 +20,14 @@ tbody{
     background-color: #693502;
 }
 .chessboard .dark:hover{
-    filter:hue-rotate(90deg);
-    filter:saturate(20);
+    background-color: cyan;
 }
 .chessboard .light:hover{
-    filter:hue-rotate(90deg);
-    filter:saturate(20);
+    background-color: cyan;
 }
-
+.chessboard .dark .selected{
+    background-color: cyan !important;
+}
+.chessboard .light .selected{
+    background-color: cyan !important;
+}
